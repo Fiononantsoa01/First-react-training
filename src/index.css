@@ -49,6 +49,9 @@
     @apply font-bold text-6xl;
     font-family: var(--font-family-tittle);
   }
+  .h1{
+    color: var(--white)
+  }
   .list-items{
     @apply font-bold p-4 rounded-md text-xl;
     color:var(--white)
@@ -79,5 +82,26 @@
   .fa-solid{
     @apply text-5xl;
     color: var(--secondary);
+  }
+  /*team*/
+  .main{
+    @apply items-center justify-center py-20 px-48 text-center space-y-6;
+    color: var(--white);
+    background-color: #638ad2;
+  }
+  .team{
+    @apply flex justify-between space-x-8 flex-row
+  }
+  .team-section{
+      @apply  flex items-center flex-col justify-center text-center
+      px-5 py-6 rounded-4xl w-xs;
+      color: var(--primary);
+      background-color: var(--white);
+  }
+  .team-image{
+    @apply rounded-full h-50 border-solid border-gray-300 border-8 my-4
+  }
+  .team-h4{
+    @apply text-lg font-bold my-2
   }
 }
