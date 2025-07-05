@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Team from "./components/Team";
 import Admission from "./components/Admission";
 import Program from "./components/Program";
+import Partener from "./components/Partener";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Field></Field>
       <Admission></Admission>
       <Program></Program>
+      <Partener></Partener>
     </div>
   );
 }

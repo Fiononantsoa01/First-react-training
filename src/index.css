@@ -145,7 +145,18 @@
     background-color: var(--primary);
     color: var(--white);
   }
-  .admission-btn-result:hover{
+/*partener*/
+.partener{
+    @apply space-y-10;
+    background-color: var(--white);
+    color: var(--primary);
+}
+.partener-text{
+    @apply space-y-9;
+}
+.partener-image{
+    @apply w-45 h-20 object-contain mt-8
+}  .admission-btn-result:hover{
     background-color: var(--white);
     color: var(--primary);
   }
