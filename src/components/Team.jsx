@@ -17,7 +17,7 @@ function Team(){
                 <img src={Ryan} alt="" className='team-image '/>
                 <div  className='text'>
                 <h4 className='team-h4'>Ryan ANDRIAMAHERY</h4>
-                <p>Developpeur back End | cofondateur et Directeur des opération à HEIgqiufhqiuhiuqhfoigiqfgiuqgfiyqfvifyukqgi-èfgq_ègfiqgf</p>
+                <p>Developpeur back End | cofondateur et Directeur des opération à HEI</p>
                 </div>
                 </section>
                 <section className='main-section'>

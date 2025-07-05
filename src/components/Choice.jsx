@@ -11,7 +11,7 @@ function Choice() {
                 </div>
             </div>
             <div className='flex w-1/3 items-center justify-end' >
-                <img src={debouche} alt="" className='size-115 object-cover' />
+                <img src={debouche} alt="debouche" className='size-115 object-cover' />
             </div>
         </div>
     );

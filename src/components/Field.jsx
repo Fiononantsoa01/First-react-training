@@ -13,7 +13,7 @@ function Field() {
             </p>
             <div className='main-container'>
                 <section className='main-section'>
-                    <img src={field1} alt="" className='field-image'/>
+                    <img src={field1} alt="cloud" className='field-image'/>
                     <div className='text'>
                     <h3 className='field-h3'>Cloud et cybersécurité</h3>
                     <p>
@@ -24,7 +24,7 @@ function Field() {
                     </div>
                 </section>
                 <section className='main-section'>
-                    <img src={field2} alt="" className='field-image'/>
+                    <img src={field2} alt="intelligence" className='field-image'/>
                     <div  className='text'>
                     <h3 className='field-h3'>Intelligence artificielle</h3>
                     <p>
@@ -35,7 +35,7 @@ function Field() {
                     </div>
                 </section>
                 <section className='main-section'>
-                    <img src={field3} alt="" className='field-image'/>
+                    <img src={field3} alt="ingenerine" className='field-image'/>
                     <div  className='text'>
                     <h3 className='field-h3'>Ingénierie logicielle</h3>
                     <p>

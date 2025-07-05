@@ -123,4 +123,35 @@
   .field-image{
     @apply w-3/5
   }
+  /*program*/
+  .Program{
+    @apply my-18 mx-40 space-y-10
+  }
+  .Program-item{
+    @apply flex flex-row justify-between space-x-9
+  }
+  .division{
+    @apply bg-orange-100 p-8 font-bold w-4/5 rounded-2xl;
+        h3{
+            @apply text-4xl mb-5;
+            color: var(--secondary);
+        }
+        p{
+            @apply text-2xl;
+            color: var(--primary);
+        }
+  }
+  .text-section{
+    @apply flex flex-col items-start justify-center space-y-8
+  }
+  .Program-button{
+    @apply border-solid border-3 p-2 rounded-sm font-bold text-xl mt-1;
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  .Program-button:hover {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
 }

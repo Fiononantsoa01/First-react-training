@@ -3,7 +3,7 @@ function About() {
     return (
         <div className='h-screen flex mx-45 my-20 space-x-12'>
             <div className='w-1/2 flex items-center justify-center'>
-                <img src={about} alt="" className='h-5/5 object-contain' />
+                <img src={about} alt="about" className='h-5/5 object-contain' />
             </div>
             <div className='about w-1/2 text-primary'>
                 <h2 className='tittle h2'>A propos de nous</h2>
