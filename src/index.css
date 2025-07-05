@@ -1,1 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 @import "tailwindcss";
+
+:root {
+  --primary: #001948;
+  --secondary: #DFA408;
+  --white:#fff;
+  --font-family-text:sans-serif;
+  --font-family-tittle: 'EB Garamond', sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-family-text);
+  }
+}
+
+@layer utilities {
+  .background-primary {
+    background-color: var(--primary);
+  }
+  .background-secondary{
+    background-color: var(--secondary);
+  }
+  .text-primary{
+    color:var(--primary);
+  }
+  .text-white{
+    color: var(--white);
+  }
+  .text-secondary {
+    color: var(--secondary);
+  }
+    .hover\:text-secondary:hover a {
+      color: var(--secondary);
+    }
+    .hover-text-primary:hover button {
+        color: var(--primary);
+      }
+  .orange-button{
+    @apply  p-4  text-white rounded-xl;
+    background-color: var(--secondary);
+  }
+  .orange-button:hover{
+    color: var(--primary);
+  }
+  /*hero*/
+  .tittle {
+    @apply font-bold text-6xl;
+    font-family: var(--font-family-tittle);
+  }
+  .tittleBlanc{
+    @apply font-bold text-6xl;
+    font-family: var(--font-family-tittle);
+    color: var(--white);
+  }
+  .h1{
+    color: var(--white)
+  }
+  .list-items{
+    @apply font-bold p-4 rounded-md text-xl;
+    color:var(--white)
+  }
+  .list-items-1{
+    background-color: var(--white);
+    color:var(--primary)
+  }
+  .list-items-2{
+    background-color: var(--secondary);
+  }
+  .list-items-3{
+    background-color: var(--primary);
+  }
+  /*about*/
+  .h2{
+    color: var(--primary);
+  }
+  .about{
+    @apply mx-18;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .h3{
+    @apply font-bold text-2xl;
+  }
+  .fa-solid{
+    @apply text-5xl;
+    color: var(--secondary);
+  }
+  /*team*/
+  .main{
+    @apply items-center justify-center py-20 px-48 text-center space-y-6;
+    color: var(--white);
+    background-color: #638ad2;
+  }
+  .main-container{
+    @apply flex justify-between space-x-0 flex-row
+  }
+  .main-section{
+      @apply  flex items-center flex-col justify-center text-center
+      px-5 py-6 rounded-4xl w-89;
+      color: var(--primary);
+      background-color: var(--white);
+  }
+  .text{
+    @apply w-xs h-3/5 mx-5
+  }
+  .team-image{
+    @apply rounded-full h-50 border-solid border-gray-300 border-8 my-4
+  }
+  .team-h4{
+    @apply text-lg font-bold my-2
+  }
+  /*field*/
+  .field-introduction{
+    color: var(--primary)
+  }
+  .field{
+    @apply  bg-gray-200 mx-2;
+   
+  }
+  .field-h3{
+    @apply text-xl font-bold;
+    color: var(--secondary);
+    font-family: var(--font-family-tittle);
+  }
+  .field-image{
+    @apply w-3/5
+  }
+
+  /* Admission */
+  .admission-btn-inscription{
+    color: var(--white);
+    border-color: var(--white);
+  }
+
+  .admission-btn-inscription:hover{
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+    animation: btn-animation 0.5s ease-in-out;
+  }
+  .admission-btn-result{
+    background-color: var(--primary);
+    color: var(--white);
+  }
+  .admission-btn-result:hover{
+    background-color: var(--white);
+    color: var(--primary);
+  }
+  .icon{
+    color: var(--white);
+    margin-top: 30%;
+  }
+  .paragraph{
+    color: var(--primary);
+  }
+  span{
+    font-weight: bold;
+  }
+}
+
