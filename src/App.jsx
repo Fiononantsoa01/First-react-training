@@ -8,6 +8,7 @@ import Team from "./components/Team";
 import Admission from "./components/Admission";
 import Program from "./components/Program";
 import Partener from "./components/Partener";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Admission></Admission>
       <Program></Program>
       <Partener></Partener>
+      <Footer></Footer>
     </div>
   );
 }

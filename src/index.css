@@ -204,3 +204,23 @@
   }
 }
 
+/* Footer */
+.footer{
+  background-color: var(--primary);
+  gap: 10px;
+  color: var(--white);
+}
+.tittlefooter{
+  font-size: 1.4rem;
+  font-weight: bold
+}
+.iconsocial{
+  color: white;
+  background-color: #DFA408;
+}
+.accueil{
+  color: #DFA408;
+}
+.copyright{
+  color: rgb(49, 41, 41);
+}
