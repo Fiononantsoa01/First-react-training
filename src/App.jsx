@@ -5,6 +5,7 @@ import Choice from "./components/Choice";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Team from "./components/Team";
+import Admission from "./components/Admission";
 import Program from "./components/Program";
 
 
@@ -19,6 +20,7 @@ function App() {
       <Team></Team>
       <Choice></Choice>
       <Field></Field>
+      <Admission></Admission>
       <Program></Program>
     </div>
   );
