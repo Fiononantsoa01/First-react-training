@@ -1,1 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 @import "tailwindcss";
+
+:root {
+  --primary: #001948;
+  --secondary: #DFA408;
+  --white:#fff;
+  --font-family-text:sans-serif;
+  --font-family-h1: 'EB Garamond', sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-family-text);
+  }
+}
+
+@layer utilities {
+  .background-primary {
+    background-color: var(--primary);
+  }
+  .background-secondary{
+    background-color: var(--secondary);
+  }
+  .text-primary{
+    color:var(--primary);
+  }
+  .text-white{
+    color: var(--white);
+  }
+  .text-secondary {
+    color: var(--secondary);
+  }
+    .hover\:text-secondary:hover a {
+      color: var(--secondary);
+    }
+    .hover-text-primary:hover button {
+        color: var(--primary);
+      }
+  .orange-button{
+    @apply  p-4  text-white rounded-xl;
+    background-color: var(--secondary);
+  }
+  .orange-button:hover{
+    color: var(--primary);
+  }
+  /*hero*/
+  .h1 {
+    @apply font-bold text-6xl;
+    color: var(--white);
+    font-family: var(--font-family-h1);
+  }
+  .list-items{
+    @apply font-bold p-4 rounded-md text-xl;
+    color:var(--white)
+  }
+  .list-items-1{
+    background-color: var(--white);
+    color:var(--primary)
+  }
+  .list-items-2{
+    background-color: var(--secondary);
+  }
+  .list-items-3{
+    background-color: var(--primary);
+  }
+}
