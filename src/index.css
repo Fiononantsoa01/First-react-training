@@ -49,6 +49,11 @@
     @apply font-bold text-6xl;
     font-family: var(--font-family-tittle);
   }
+  .tittleBlanc{
+    @apply font-bold text-6xl;
+    font-family: var(--font-family-tittle);
+    color: var(--white);
+  }
   .h1{
     color: var(--white)
   }
@@ -123,4 +128,36 @@
   .field-image{
     @apply w-3/5
   }
+
+  /* Admission */
+  .admission-btn-inscription{
+    color: var(--white);
+    border-color: var(--white);
+  }
+
+  .admission-btn-inscription:hover{
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+    animation: btn-animation 0.5s ease-in-out;
+  }
+  .admission-btn-result{
+    background-color: var(--primary);
+    color: var(--white);
+  }
+  .admission-btn-result:hover{
+    background-color: var(--white);
+    color: var(--primary);
+  }
+  .icon{
+    color: var(--white);
+    margin-top: 30%;
+  }
+  .paragraph{
+    color: var(--primary);
+  }
+  span{
+    font-weight: bold;
+  }
 }
+
