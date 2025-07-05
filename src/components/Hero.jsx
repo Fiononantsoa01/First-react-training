@@ -5,7 +5,7 @@ function Hero() {
             style={{ backgroundImage: `URL(${banner})` }}>
             <div className='absolute z-1 inset-0 bg-black/50'></div>
             <div className='relative z-10 h-full Hero flex justify-center items-center mr-auto flex-col  space-y-25'>
-                <h1 className='h1'>Haute Ecole d'informatique</h1>
+                <h1 className='tittle text-white'>Haute Ecole d'informatique</h1>
                 <h2 className='text-white text-2xl text-center mx-25'>
                     Une infrastricture de qualité et un programme pédagogique qui répond au besoin du marché pour l'employabilité
                     de nos étudiants
