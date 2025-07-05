@@ -11,21 +11,28 @@ function Team(){
               Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, 
               elle a été soigneusement sélectionnée.
             </p>
-            <div className='team'>
-                <section className='team-section'>
-                <img src={Ryan} alt="" className='team-image'/>
+            
+            <div className='main-container'>
+                <section className='main-section'>
+                <img src={Ryan} alt="" className='team-image '/>
+                <div  className='text'>
                 <h4 className='team-h4'>Ryan ANDRIAMAHERY</h4>
-                <p>Developpeur back End | cofondateur et Directeur des opération à HEI</p>
+                <p>Developpeur back End | cofondateur et Directeur des opération à HEIgqiufhqiuhiuqhfoigiqfgiuqgfiyqfvifyukqgi-èfgq_ègfiqgf</p>
+                </div>
                 </section>
-                <section className='team-section'>
-                <img src={Mirado} alt="" className='team-image' />
+                <section className='main-section'>
+                <img src={Mirado} alt="" className='team-image ' />
+                <div  className='text'>
                 <h4 className='team-h4'>Ryan ANDRIAMAHERY</h4>
                 <p>Developpeur back End | cofondateur et Directeur des opération à HEI</p>
+                </div>
                 </section>
-                <section className='team-section'>
-                <img src={Mirado} alt="" className='team-image' />
+                <section className='main-section'>
+                <img src={Mirado} alt="" className='team-image ' />
+                <div  className='text'>
                 <h4 className='team-h4'>Ryan ANDRIAMAHERY</h4>
                 <p>Developpeur back End | cofondateur et Directeur des opération à HEI</p>
+                </div>
                 </section>
             </div>
             

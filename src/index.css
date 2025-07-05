@@ -89,19 +89,38 @@
     color: var(--white);
     background-color: #638ad2;
   }
-  .team{
-    @apply flex justify-between space-x-8 flex-row
+  .main-container{
+    @apply flex justify-between space-x-0 flex-row
   }
-  .team-section{
+  .main-section{
       @apply  flex items-center flex-col justify-center text-center
-      px-5 py-6 rounded-4xl w-xs;
+      px-5 py-6 rounded-4xl w-89;
       color: var(--primary);
       background-color: var(--white);
+  }
+  .text{
+    @apply w-xs h-3/5 mx-5
   }
   .team-image{
     @apply rounded-full h-50 border-solid border-gray-300 border-8 my-4
   }
   .team-h4{
     @apply text-lg font-bold my-2
+  }
+  /*field*/
+  .field-introduction{
+    color: var(--primary)
+  }
+  .field{
+    @apply  bg-gray-200 mx-2;
+   
+  }
+  .field-h3{
+    @apply text-xl font-bold;
+    color: var(--secondary);
+    font-family: var(--font-family-tittle);
+  }
+  .field-image{
+    @apply w-3/5
   }
 }
