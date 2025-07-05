@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Team from "./components/Team";
 import Program from "./components/Program";
+import Partener from "./components/Partener";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Choice></Choice>
       <Field></Field>
       <Program></Program>
+      <Partener></Partener>
     </div>
   );
 }
