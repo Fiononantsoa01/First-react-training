@@ -16,6 +16,8 @@ function App() {
       <Hero></Hero>
       <About></About>
       <Team></Team>
+      <Field></Field>
+      <Choice></Choice>
     </div>
   );
 }
