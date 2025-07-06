@@ -9,6 +9,7 @@ import Admission from "./components/Admission";
 import Program from "./components/Program";
 import Partener from "./components/Partener";
 import Footer from "./components/Footer";
+import Techno from "./components/Techo";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Field></Field>
       <Admission></Admission>
       <Program></Program>
+      <Techno></Techno>
       <Partener></Partener>
       <Footer></Footer>
     </div>
