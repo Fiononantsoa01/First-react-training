@@ -155,6 +155,20 @@
     background-color: var(--primary);
     color: var(--white);
   }
+  .admission-btn-result:hover{
+    background-color: var(--white);
+    color: var(--primary);
+  }
+  .icon{
+    color: var(--white);
+    margin-top: 30%;
+  }
+  .paragraph{
+    color: var(--primary);
+  }
+  span{
+    font-weight: bold;
+  }
   /*program*/
   .Program{
     @apply my-18 mx-40 space-y-10
@@ -185,7 +199,18 @@
     background-color: var(--primary);
     color: var(--white);
   }
-
+/*techno*/
+  .techno{
+    @apply  bg-gray-200 mx-2 space-y-10 
+    ;
+    color: var(--primary);
+  }
+  .techno-image{
+    @apply w-45 h-35 object-contain mt-8
+  }
+  .techno-image2{
+    @apply w-40 h-20 object-contain mt-8
+  }
 
 /*partener*/
 .partener{
@@ -198,21 +223,9 @@
 }
 .partener-image{
     @apply w-45 h-20 object-contain mt-8
-}  .admission-btn-result:hover{
-    background-color: var(--white);
-    color: var(--primary);
-  }
-  .icon{
-    color: var(--white);
-    margin-top: 30%;
-  }
-  .paragraph{
-    color: var(--primary);
-  }
-  span{
-    font-weight: bold;
-  }
-}
+}  
+
+
 
 /* Footer */
 .footer{
@@ -233,4 +246,5 @@
 }
 .copyright{
   color: rgb(49, 41, 41);
+}
 }
