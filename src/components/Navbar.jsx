@@ -5,7 +5,7 @@ function Navbar(){
           <img src={logo} alt="Logo" style={{ height: '110px' }} />
           <ul className='navigation-bar-items flex justify-between items-center
            space-x-8 text-white font-bold text-l'>
-            <li className='hover:text-secondary'><a href="#">ACCUEIL</a></li>
+            <li className='hover:text-secondary' style={{color: '#DFA408'}}><a href="#">ACCUEIL</a></li>
             <li className=' hover:text-secondary'><a href="#">ACTUALITES</a></li>
             <li className=' hover:text-secondary'><a href="#">BOURSES D'ETUDES</a></li>
             <li className=' hover:text-secondary'><a href="#">INSCRIPTION</a></li>

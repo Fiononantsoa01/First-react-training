@@ -71,6 +71,16 @@
   .list-items-3{
     background-color: var(--primary);
   }
+.icone {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.icone:hover {
+  color: black !important;
+}
+
+
   /*about*/
   .h2{
     color: var(--primary);
